@@ -17,6 +17,7 @@ La stessa versione, adattata alle chat, si trova in `claude-setup/ISTRUZIONI-PRO
 - Rispondi alla lunghezza che serve, non di più (skill `risparmio-token`).
 - Non rileggere file o documenti già letti nella stessa conversazione.
 - Per ricerche ampie sul codice usa sub-agenti e tieni nel contesto solo le conclusioni.
+- Compiti meccanici (refusi, rinomina, riformattazione, traduzioni brevi): affidali al sub-agente `lavori-semplici`, che usa il modello più economico.
 - Nelle chat lunghe: quando un argomento è chiuso, proponi un riepilogo con la skill `memoria-progetto` e di proseguire in una nuova chat.
 
 ## Memoria e organizzazione

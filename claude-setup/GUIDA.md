@@ -1,6 +1,6 @@
 # Guida: attivare le linee guida in Claude (chat, Progetti e Claude Code)
 
-Questa guida deriva dall'analisi di 6 reel su Claude/Claude Code e del carosello "6 e-com legends → Claude agents".
+Questa guida deriva dall'analisi di 7 reel su Claude/Claude Code e del carosello "6 e-com legends → Claude agents".
 
 ## 1. Cosa dicevano i video e cosa è stato fatto
 
@@ -12,6 +12,7 @@ Questa guida deriva dall'analisi di 6 reel su Claude/Claude Code e del carosello
 | "3 tool gratis per siti" | GSAP, Lenis, React Bits | Skill `sito-premium` |
 | "God mode" | Everything Claude Code (agenti, token-budget-advisor, continuous-learning) | Ripresi i concetti utili in `risparmio-token` e `memoria-progetto`. Non installato intero (troppo grande: centinaia di skill caricano contesto e consumano token) |
 | "Il tool che risolve i token" | graphify (grafo della codebase) | Non installato: utile per codebase grandi, il tema attuale è piccolo. Installabile su richiesta |
+| "Mods di Claude" | Mod per trovare clienti in un foglio Google, mod per risparmiare (compiti semplici al modello economico Haiku), dashboard KPI dentro Claude | Sub-agente `lavori-semplici` (modello Haiku) in `.claude/agents/`. Ricerca clienti → skill `lead-finder` già attiva. Dashboard KPI → skill `business-pulse` già attiva o una dashboard Artifact su richiesta. Le Mod dell'interfaccia si installano dall'app Claude sul tuo computer, non da qui |
 | Carosello e-com (8 slide) | Ricerca prodotto, sourcing, brand + scheda, lancio, content machine, scaling | 6 skill `ecom-*` + `pricing`, adattate a Shopify e Amazon |
 
 ## 2. Chat e Progetti su claude.ai (da fare tu, 5 minuti)
